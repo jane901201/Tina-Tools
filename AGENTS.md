@@ -32,3 +32,5 @@ When pointing out issues in code, always include line numbers (e.g., src/main.py
 - Read-only operations (searching, analyzing, viewing files) do not require confirmation.
 - Any file write operation (create/edit/delete) requires prior confirmation.
 - Destructive changes (delete/overwrite) must always be confirmed.
+
+在程式裡產生註解時，使用繁體中文，編碼為 UTF-8
