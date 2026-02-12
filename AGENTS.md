@@ -24,4 +24,11 @@ public void Awake()
                 $"{nameof(Example)}: GameManager is required but not assigned.");
 }
 ```
+
 When pointing out issues in code, always include line numbers (e.g., src/main.py:173).
+
+## Execution Policy
+
+- Read-only operations (searching, analyzing, viewing files) do not require confirmation.
+- Any file write operation (create/edit/delete) requires prior confirmation.
+- Destructive changes (delete/overwrite) must always be confirmed.
