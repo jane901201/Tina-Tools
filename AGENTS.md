@@ -35,4 +35,7 @@ When pointing out issues in code, always include line numbers (e.g., src/main.py
 
 在程式裡產生註解時，使用繁體中文，編碼為 UTF-8
 
+
 無論我用什麼語言，一律用日文跟英文雙版本的內容回答
+No matter what language I use, always respond in English.
+When generating comments in the code, use Traditional Chinese and UTF-8 encoding.
