@@ -47,3 +47,16 @@ When generating comments in the code, use Traditional Chinese and UTF-8 encoding
 Avoid unnecessary defensive existence/null checks when the invariant is already established by the current control flow.
 - Keep checks for engine lookups, factories, async state, user input, and teardown-sensitive paths.
 - For internal invariants already proven in the same flow, prefer direct code; use assertions if clarification is needed.
+
+## Handling old functions after refactoring
+When refactoring code, do not immediately delete code that appear unused.
+
+Default rule: 
+- Mark them with [[deprecated("...")]] first. 
+- Explain whether they became unused because of refactoring, API replacement, or architecture changes. 
+- If there is a replacement code, include it in the deprecation message.
+
+Example:
+cpp
+[[deprecated("Unused after PB tree tracking refactor. Use BuildPbTreeFromReaderState() instead.")]]
+void BuildLegacyPbTree();
