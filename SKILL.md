@@ -158,7 +158,6 @@ Guideline summary:
 ---
 
 ## 9. Architectural rules and file layout
-- Maintain layering: core modules must not depend on UI/platform modules.
 - One primary class per header/source pair. Avoid aggregating unrelated classes in the same file.
 
 ---
