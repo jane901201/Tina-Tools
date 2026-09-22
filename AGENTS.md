@@ -60,3 +60,8 @@ Example:
 cpp
 [[deprecated("Unused after PB tree tracking refactor. Use BuildPbTreeFromReaderState() instead.")]]
 void BuildLegacyPbTree();
+
+## git
+
+Do not create, amend, or push commits unless I explicitly ask.
+
